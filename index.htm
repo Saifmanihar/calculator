@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="results">
+        <p id="result"></p>
+    </div>
+    <table>
+        <tr>
+            <td>
+                <input type="text" class="number1">   <input type="text" class="number2">
+                <div class="button1">
+                <button id="b5"> MC</button>
+                <button id="b6"> M+</button>
+                <button id="b7"> M-</button>
+                <button id="b8" onclick="divide()"> /</button>
+            </div>
+                <div class="button2">
+                <button id="b1" onclick="1"> 1</button>
+                <button id="b2"onclick="2"> 2</button>
+                <button id="b3"> 3</button>
+                <button id="b4" onclick="multipy()">X</button>
+            </div>
+                <div class="button2">
+                <button id="b1"> 4</button>
+                <button id="b2"> 5</button>
+                <button id="b3"> 6</button>
+                <button id="b4" onclick="minus()"> -</button>
+            </div>
+                <div class="button2">
+                <button id="b1"> 7</button>
+                <button id="b2"> 8</button>
+                <button id="b3"> 9</button>
+                <button id="b4" onclick="add()"> +</button>
+            </div>
+                <div class="button2">
+                <button id="b1"> C</button>
+                <button id="b2"> 0</button>
+                <button id="b3"> .</button>
+                <button id="b4"> =</button>
+            </div>
+            </td>
+        </tr>
+    </table>
+  
+    <script src="script.js"></script>
+</body>
+</html>
